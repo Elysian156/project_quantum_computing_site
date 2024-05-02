@@ -22,7 +22,13 @@
         justify-content:center;
         gap:8px;
     }
-    button{
+@media (max-width:480px) {
+        .filter-texts{
+            flex-direction: column;
+        }
+        
+    }
+button{
         font-size: 20px;
     }
   
